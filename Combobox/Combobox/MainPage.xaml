@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="Combobox.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Combobox"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition> </RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <ComboBox Grid.Row="0" Name="combo" >
+            
+        </ComboBox>
+        <TextBlock Grid.Row="1" ></TextBlock>
+    </Grid>
+</Page>
